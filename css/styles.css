@@ -6,10 +6,15 @@
     border-bottom: 1px solid black;
 }
 
-
+h1 {
+    font-weight: 400;
+    font-family: "Crimson Text", "Helvetica", sans-serif;
+    font-size: 5em;
+}
 
 .nav-items {
     margin-bottom: 2%;
+    font-family: "Crimson Text", "Helvetica", sans-serif;
 }
 
 .nav-item  {
@@ -24,5 +29,109 @@
 
 .header a {
     color: black;
-    line
+    font-size: 1.3em;
 }
+
+/* INTRO CONTENT */
+
+.intro-content {
+    padding: 2% 10%;
+    font-size: 1.3em;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+.intro-paragraph {
+    border-bottom: 2px solid black;
+    padding-bottom: 3%;
+}
+
+
+
+/* MAIN CONTENT */
+
+.img-column {
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+
+
+
+/* ABOUT PAGE */
+
+.about-header-text {
+    padding-top: 2%;
+    font-size: 3em;
+}
+
+.about-paragraph {
+    font-size: 1.3em;
+    margin: 0;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+/* MEDIA QUIRIES */
+
+/* Smaller than mobile */
+@media (max-width: 400px) {
+    h1 {
+    font-size: 3.5em;
+}
+    .nav-items {
+    font-size: .75em;
+    }
+    
+    .intro-content {
+        font-size: 1.2em;
+    }
+}
+
+/* Smaller than phablet (also point when grid becomes active) */
+@media (max-width: 550px) {
+     h1 {
+    font-size: 3.5em;
+}
+    .nav-items {
+    font-size: .75em;
+    }
+    
+    .intro-content {
+        font-size: 1.2em;
+    }
+}
+
+/* Smaller than tablet */
+@media (max-width: 750px) {
+     h1 {
+    font-size: 3.5em;
+}
+    .nav-items {
+    font-size: .75em;
+    }
+    
+    .intro-content {
+        font-size: 1.2em;
+    }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
