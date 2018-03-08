@@ -1,0 +1,28 @@
+/* HEADER AND NAVIGATION MENU */
+
+.header {
+    text-align: center;
+    margin-top: 1%;
+    border-bottom: 1px solid black;
+}
+
+
+
+.nav-items {
+    margin-bottom: 2%;
+}
+
+.nav-item  {
+    display: inline-block;
+    padding-right: 10%;
+    text-decoration: none;
+}
+
+.nav-item:nth-child(3) {
+    padding: 0;
+}
+
+.header a {
+    color: black;
+    line
+}
