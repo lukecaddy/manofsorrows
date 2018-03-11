@@ -1,3 +1,14 @@
+/*BACKGROUND*/
+
+body {
+    background-image: url(/images/background.png);
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+
 /* HEADER AND NAVIGATION MENU */
 
 .header {
@@ -9,7 +20,11 @@
 h1 {
     font-weight: 400;
     font-family: "Crimson Text", "Helvetica", sans-serif;
-    font-size: 5em;
+    font-size: 3em;
+}
+
+h1 a {
+    text-decoration: none;
 }
 
 .nav-items {
@@ -19,7 +34,7 @@ h1 {
 
 .nav-item  {
     display: inline-block;
-    padding-right: 10%;
+    padding-right: 8%;
     text-decoration: none;
 }
 
@@ -29,14 +44,14 @@ h1 {
 
 .header a {
     color: black;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 /* INTRO CONTENT */
 
 .intro-content {
     padding: 2% 10%;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 .bold-text {
@@ -48,7 +63,9 @@ h1 {
     padding-bottom: 3%;
 }
 
-
+.main-header {
+    font-size: 1.75em;
+}
 
 /* MAIN CONTENT */
 
@@ -58,24 +75,34 @@ h1 {
 }
 
 
-
-
 /* ABOUT PAGE */
 
 .about-header-text {
     padding-top: 2%;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .about-paragraph {
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin: 0;
     text-align: center;
 }
+
+/* FOOTER */
 
 footer p {
     text-align: center;
     margin: 0;
+    vertical-align: bottom;
+}
+
+/* MISC */
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-width: 0;
+  border-top: 1px solid #E1E1E1; 
 }
 
 
@@ -89,44 +116,43 @@ footer p {
 /* MEDIA QUIRIES */
 
 /* Smaller than mobile */
-@media (max-width: 400px) {
+@media (min-width: 400px) {
     h1 {
-    font-size: 3.5em;
-}
+    font-size: 2em;
+    }
     .nav-items {
     font-size: .75em;
     }
-    
     .intro-content {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 }
 
 /* Smaller than phablet (also point when grid becomes active) */
-@media (max-width: 550px) {
+@media (min-width: 550px) {
      h1 {
-    font-size: 3.5em;
-}
+    font-size: 2.25em;
+    }
     .nav-items {
-    font-size: .75em;
+    font-size: 1em;
     }
     
     .intro-content {
-        font-size: 1.2em;
+        font-size: 1.25em;
     }
 }
 
 /* Smaller than tablet */
-@media (max-width: 750px) {
+@media (min-width: 750px) {
      h1 {
     font-size: 3.5em;
 }
     .nav-items {
-    font-size: .75em;
+    font-size: 1.25em;
     }
     
     .intro-content {
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
 }
 
